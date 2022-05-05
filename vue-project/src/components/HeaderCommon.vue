@@ -4,6 +4,7 @@
   <div class="flex px-4 py-8 bg-gray-700 items-center justify-center">
     <div class="px-2 font-bold text-5xl text-white top-font">Pegasus</div>
   </div>
+  <div class="px-2 font-bold text-5xl text-white top-font">Pegasus</div>
   <div class="absolute top-10 right-1">
     <input class="text" />
     <button
