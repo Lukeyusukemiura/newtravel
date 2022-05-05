@@ -16,7 +16,7 @@
                 <h4 class="text-2xl font-bold mb-2">I travel for the nature</h4>
                 <p>
                   This is the photo when I went to Australia to feel the nature.
-                  Location is Tasmania where my best friend lives.
+                  Location is Tasmania where my best friend lives. hi
                 </p>
               </div>
             </div>
