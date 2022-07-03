@@ -62,10 +62,14 @@
           <a href="#" class="m-1">
             <div class="bg-white card-long overflow-hidden border rounded-lg">
               <div class="relative pb-80">
-                <img
+                <video
                   class="absolute h-full w-full object-cover"
-                  src="../image/photo.png"
-                />
+                  autoplay
+                  muted
+                  loop
+                >
+                  <source src="../image/nojiri.MOV" />
+                </video>
               </div>
               <div class="p-5 text-center overflow-hidden">
                 <h4 class="text-2xl font-bold mb-2">I travel for the nature</h4>

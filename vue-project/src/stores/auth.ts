@@ -18,6 +18,13 @@ export const authStore = defineStore("auth", {
   }),
   getters: {
     isLoggedIn: (state) => state.currentUser !== null,
+    getUserInfo(state) {
+      if (state.currentUser === null) {
+        console.log("there is none user logged in");
+      } else {
+        console.log("user is here");
+      }
+    },
   },
   actions: {
     async login() {

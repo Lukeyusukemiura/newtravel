@@ -2,6 +2,7 @@
 import { RouterView } from "vue-router";
 import HeaderCommon from "@/components/HeaderCommon.vue";
 import { ref, onMounted } from "vue";
+import { authStore } from "../stores/auth";
 
 const headerRef = ref<InstanceType<typeof HeaderCommon>>();
 const screenHeight = ref<number>(window.innerHeight);
